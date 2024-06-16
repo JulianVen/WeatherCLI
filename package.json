@@ -2,11 +2,19 @@
   "name": "weatherx",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "bin": "./bin/weatherx.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Julian Venegas",
   "license": "MIT",
-  "description": "Weather CLI Application"
+  "description": "Weather CLI Application",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "colors": "^1.4.0",
+    "commander": "^12.1.0",
+    "configstore": "^6.0.0",
+    "inquirer": "^9.2.23"
+  }
 }
