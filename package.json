@@ -1,0 +1,12 @@
+{
+  "name": "weatherx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "./bin/weatherx.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julian Venegas",
+  "license": "MIT",
+  "description": "Weather CLI Application"
+}
